@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet"
+          href="{% static 'choose_phone/css/choose_phone.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Подобрать номер</h1>
+            <p class="card-text">Предлагаем подобрать вам
+                уникальный, красивый
+                номер телефона! Вы можете посмотреть все номера, представленные
+                в
+                интернет-магазине или воспользоваться один из способов поиска
+                подходящего именно для вас красивого номера. Для этого
+                воспользуйтесь предложенными алгоритмами поиска номера.</p>
+            <a href="#" class="btn btn-green">Просмотреть все номера</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Любимое число</h5>
+                    <p class="card-text">Выберите номер, в котором содержится
+                        ваше любимое число.</p>
+                    <label for="1">Введите до 4-х цифр</label>
+                    <input id=1 type="text">
+                    <a href="#"
+                       class="btn btn-green float-left align-bottom">Подобрать</a>
+                    <img src="{% static 'choose_phone/img/icons/lubnum.png' %}"
+                         class="float-right" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural
+                        lead-in to additional content.</p>
+                    <a href="#" class="btn btn-green">Подобрать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

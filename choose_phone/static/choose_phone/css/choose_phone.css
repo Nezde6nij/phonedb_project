@@ -1,0 +1,22 @@
+.col-sm-6 {
+    margin-top: 20px;
+}
+
+body {
+    background: #ededed;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #00b956;
+    border-color: #00b956;
+}
+
+h1, h5 {
+    color: #00b956;
+    font-family: graphiklight, helvetica, sans-serif;
+}
+img {
+    width: 60px;
+    height: 60px;
+}
